@@ -10,7 +10,7 @@ We took the combined survey data from the COMP 110 class surveys and analyzed ho
 
 We first split up all the responses by their class status (Freshman, Sophomore, etc.) and found the proportion of them who supported a livestream of lectures. For this, we included only those who picked 5-7 on the scale of support. 
 
-<img src="zradolph.github.io/wewantprelecturevideos/static/imgs/class.png" alt="Bar graph containing the proportions of each class that supports adding livestreams. Junior, Sophomore, and Senior are high, while Freshmen and Graduates are slightly lower." width="500"/>
+<img src="static/imgs/class.png" alt="Bar graph containing the proportions of each class that supports adding livestreams. Junior, Sophomore, and Senior are high, while Freshmen and Graduates are slightly lower." width="500"/>
 
 We were surprised at first to see Freshmen at the lowest support, but it makes sense since most of them come to class, something upperclassmen do less. However, even with Freshmen at the lowest support, they still had above 60% support for the idea, proving it is popular among all classes.
 
@@ -18,7 +18,7 @@ We were surprised at first to see Freshmen at the lowest support, but it makes s
 
 Here, we only took the data of Freshmen and split them up based on their prior coding experience- whether they had any or not. We then took the proportion of those who supported adding pre-lecture videos and compared them.
 
-<img src="zradolph.github.io/wewantprelecturevideos/static/imgs/experience.png" alt="Bar graph containing the proportions of freshmen based on prior experience that supported adding pre-lecture videos. Those with experience had higher rates of support than those who did not." width="500"/>
+<img src="static/imgs/experience.png" alt="Bar graph containing the proportions of freshmen based on prior experience that supported adding pre-lecture videos. Those with experience had higher rates of support than those who did not." width="500"/>
 
 We were surprised once again, seeing that those with prior experience had higher rates of support for pre-lecture videos. However, both groups had a higher than 65% support for adding them, showing that there is a strong support among freshmen for the addition of pre-lecture videos.
 
@@ -28,7 +28,7 @@ We pivoted here to looking at if there was an association between pre-lecture vi
 
 We had to do some complicated looping to create a table with the number of times each value showed up in the dataset, but we eventually succeeded and were able to visualize it in a scatter plot.
 
-<img src="zradolph.github.io/wewantprelecturevideos/static/imgs/understanding.png" alt="Scatter plot containing the amount of responses for each level of pre-lecture videos (on the x-axis) and understanding (on the y-axis). There is a high concentration of these responses in the middle level of understanding and high level of support for pre-lecture videos." width="500"/>
+<img src="static/imgs/understanding.png" alt="Scatter plot containing the amount of responses for each level of pre-lecture videos (on the x-axis) and understanding (on the y-axis). There is a high concentration of these responses in the middle level of understanding and high level of support for pre-lecture videos." width="500"/>
 
 We see a large cluster of responses with high support for pre-lecture videos and middling understanding, indicating that this group of students, who have varying degrees of understanding, generally have high support for pre-lecture videos.
 
@@ -36,7 +36,7 @@ We see a large cluster of responses with high support for pre-lecture videos and
 
 Our final analysis looked at if there was an association between office hour visits and pre-lecture video support. We made a new table with office hour visit amount and reused much of our code for the previous analysis to create our results.
 
-<img src="zradolph.github.io/wewantprelecturevideos/static/imgs/office hours.png" alt="Scatter plot containing the amount of responses for each level of support for pre-lecture videos (on the x-axis) and the number of office hours visits per assignment (on the y-axis). There is a high concentration of data for those with high support for pre-lecture videos and those who visited office hours little to never." width="500"/>
+<img src="static/imgs/office hours.png" alt="Scatter plot containing the amount of responses for each level of support for pre-lecture videos (on the x-axis) and the number of office hours visits per assignment (on the y-axis). There is a high concentration of data for those with high support for pre-lecture videos and those who visited office hours little to never." width="500"/>
 
 This graph did not tell us much besides that there is a high degree of support for pre-lecture videos, but it does show that even though there are people who attended office hours often, they still had support for pre-lecture videos, as the size and color of the dots get bigger as the graph moves right. Essentially, people strongly support adding pre-lecture videos.
 
